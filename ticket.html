@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tickets</title>
+</head>
+<body>
+ <form action="success.html">
+
+<u>
+<h1>ONLINE PALACE ENTRANCE TICKETS</h1>
+</u>
+<u>
+<p>Palace Entry Timing 10AM - 5.30PM Only</p>
+</u>
+<form>
+ Name:<input type="text" id="fname" name="fname" required/><br><br>
+ Gender:
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+ Date of birth:<input type="date"/><br><br>
+ Mobile No:<input type="number"required/><br><br>
+ Email:<input type="email"/><br><br>
+ 
+ <select>
+    <option value="Indian Adult">Indian Adult</option>
+    <option value="Indian Child">Indian Child</option>
+    <option value="Foriegn Adult">Foriegn Adult</option>
+    <option value=" Foriegn Child">Foriegn Child</option>
+  </select><br><br>
+ Languages Known:<br>
+ Kannada<input type="checkbox" value="kan"> 
+ Engish<input type="checkbox" value="Eng">
+ Hindi<input type="checkbox" value="Hin"><br><br>
+ Ticket Type:
+ <input type=text list="ticket type"required/>
+  <datalist id="ticket type">
+    <option value="VIP- 1000/-">
+    <option value="Section1- 500/-">
+    <option value="Section2- 200/-">
+    <option value="Section3- 100/-">
+  </datalist><br><br>
+ <input type="submit" value="Register"/>
+</body>
+</html>

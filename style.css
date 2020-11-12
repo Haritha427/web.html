@@ -1,0 +1,40 @@
+body{
+  width:65%;
+  margin:auto;
+  text-align:center;
+  background-color:Cornsilk;
+ }
+#aboutdesc{
+  background-color:white;
+  padding:10px;
+  text-align:justify;
+ }
+#contact{
+   text-align:right;
+ }
+#abouthead{
+ background-color:FFEBCD;
+ }
+#img{
+ border:2px solid #555;
+ } 
+#mainmenu{
+ text-align:right;
+ background-color:Orange;
+ margine-top:20px;
+ padding:7px;
+ color:white;
+ font-weight:bold;
+ }
+#latestnewshead{
+ background-color:darkred;
+ color:white;
+ padding:10px;
+ margin-bottom:0px;
+ }
+#marqueestyle{
+ background-color:grey;
+ color:white;
+ height:200px; 
+ padding:10px;
+ }

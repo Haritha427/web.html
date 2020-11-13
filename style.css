@@ -4,6 +4,11 @@ body{
   text-align:center;
   background-color:Cornsilk;
  }
+h1{
+  font-family: 'Diplomata';
+}
+h2{
+  font-family: 'Diplomata';
 #aboutdesc{
   background-color:white;
   padding:10px;
@@ -14,6 +19,7 @@ body{
  }
 #abouthead{
  background-color:FFEBCD;
+ font-family: 'Diplomata';
  }
 #img{
  border:2px solid #555;
@@ -31,6 +37,7 @@ body{
  color:white;
  padding:10px;
  margin-bottom:0px;
+ font-family: 'Diplomata'; 
  }
 #marqueestyle{
  background-color:grey;
